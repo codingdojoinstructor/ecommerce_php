@@ -2,7 +2,7 @@
 	//connect to database
 	require_once('include/connection.php');
 	//get all products and product category
-	$products = fetchAll("SELECT * FROM products");
+	$products = fetchAll($connection, "SELECT * FROM products");
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
